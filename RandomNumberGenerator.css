@@ -24,9 +24,20 @@ button {
     text-transform: capitalize;
 }
 
-p {
+#numHere {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: large;
+}
+
+.number {
+    display: inline-block;
+    width: 30px; /* Adjust width as needed */
+    text-align: center;
+    margin: 5px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
 }
